@@ -1,7 +1,6 @@
 # My Git Blog
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)
-![Vue 3](https://img.shields.io/badge/Vue-3-4FC08D?logo=vue.js)
 ![Nuxt 3](https://img.shields.io/badge/Nuxt-3-00DC82?logo=nuxt.js)
 
 개발과 기술 관련 글을 기록하는 개인 블로그입니다.  
