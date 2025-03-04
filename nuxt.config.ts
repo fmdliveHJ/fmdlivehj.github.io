@@ -5,4 +5,8 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
   },
+  ssr: true,
+  nitro: {
+    preset: 'vercel',
+  },
 });
