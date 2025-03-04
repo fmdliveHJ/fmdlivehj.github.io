@@ -22,3 +22,27 @@ logs
 .env
 .env.*
 !.env.example
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt/
+.nuxt/*
+_nuxt/
+_nuxt/*
+.nitro/
+.nitro/*
+dist/
+dist/*
+
+# Nuxt payload & static build files
+*.payload.json
+index.html
+200.html
+404.html
+favicon.ico
+robots.txt
+
+# 특정 폴더 내 빌드 파일 제외 (예: blog 관련 정적 빌드 파일)
+blog/index.html
+blog/_payload.json

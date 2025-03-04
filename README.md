@@ -24,5 +24,5 @@ GitHub Pages를 이용해 배포하며, Vue/Nuxt 기반으로 제작되었습니
 ## Tech Stack
 
 - **Framework:** Nuxt 3
-- **Styling:** Tailwind CSS
-- **Deployment:** GitHub Pages
+- **Styling:** quasar
+- **Deployment:** vercel
