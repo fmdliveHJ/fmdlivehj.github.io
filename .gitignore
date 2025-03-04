@@ -32,8 +32,7 @@ _nuxt/
 _nuxt/*
 .nitro/
 .nitro/*
-dist/
-dist/*
+
 
 # Nuxt payload & static build files
 *.payload.json
