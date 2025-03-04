@@ -44,3 +44,4 @@ robots.txt
 # 특정 폴더 내 빌드 파일 제외 (예: blog 관련 정적 빌드 파일)
 blog/index.html
 blog/_payload.json
+.vercel
