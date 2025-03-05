@@ -6,7 +6,7 @@
 개발과 기술 관련 글을 기록하는 개인 블로그입니다.  
 GitHub Pages를 이용해 배포하며, Vue/Nuxt 기반으로 제작되었습니다.
 
-**블로그 URL:** [https://fmdlivehj.github.io/](hhttps://fmdlivehj.github.io/)
+**블로그 URL:** [https://fmdlivehj-github-io.vercel.app/](https://fmdlivehj-github-io.vercel.app/)
 
 ---
 
@@ -17,12 +17,39 @@ GitHub Pages를 이용해 배포하며, Vue/Nuxt 기반으로 제작되었습니
 
 - **💡 개발 일지:** 프로젝트 진행 과정 및 기술 정리
 - **🛠️ 기술 블로그:** JavaScript, TypeScript, Vue/Nuxt, React/Next, 기타 최신 기술 정리
-- **📂 알고리즘 & CS:** 문제 풀이 및 컴퓨터 공학 지식 정리
 
 ---
 
 ## Tech Stack
 
 - **Framework:** Nuxt 3
-- **Styling:** quasar
+- **Styling:** tailwind, scss
 - **Deployment:** vercel
+
+---
+
+## 블로그 구조
+
+- **Home:** 메인 페이지
+- **JSTS:** JavaScript, TypeScript, Vue/Nuxt, React/Next, 기타 최신 기술 정리
+- **DSA Coding:** 알고리즘 문제 풀이 및 컴퓨터 공학 지식 정리
+- **Interactive:** 인터렉티브 콘텐츠 정리
+- **Backend:** 백엔드 내용 정리
+- **Frontend:** 프론트엔드 내용 정리
+- **Project Experience:** 프로젝트 경험 및 프로젝트 소개
+
+---
+
+## 개발 환경 설정
+
+```shell
+pnpm install
+pnpm dev
+
+vercel --prod
+```
+
+## 블로그 배포
+
+- **vercel:**
+- **github:** 소스 코드 관리

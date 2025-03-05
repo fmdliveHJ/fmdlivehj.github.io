@@ -11,11 +11,14 @@
     "postinstall": "pnpm run build"
   },
   "dependencies": {
-    "@nuxt/content": "^3.1.1",
-    "@quasar/cli": "^2.5.0",
+    "@nuxt/content": "^3.2.2",
     "gsap": "^3.12.7",
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.64.2",
+    "sass-loader": "^16.0.5"
   }
 }
