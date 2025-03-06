@@ -6,7 +6,7 @@ const sideBarItem = [
   { name: 'Backend', path: '/blog/backend' }, // ✅ 변경
   { name: 'Interactive', path: '/blog/interactive' }, // ✅ 변경
   { name: 'DSA Coding', path: '/blog/dsa-coding' }, // ✅ 변경
-  { name: 'Project Experience', path: '/blog/project-experience' }, // ✅ 변경
+  { name: 'Project Experience', path: '/blog/project-exp' }, // ✅ 변경
 ];
 </script>
 

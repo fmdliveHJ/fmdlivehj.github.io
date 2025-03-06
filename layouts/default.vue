@@ -5,7 +5,7 @@ import Header from '../components/global/header.vue';
 </script>
 
 <template>
-  <div id="layout" class="row no-wrap">
+  <div id="layout" class="flex">
     <Sidebar />
     <div class="page-container">
       <Header />

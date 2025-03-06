@@ -11,4 +11,11 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'vercel',
   },
+  css: ['@/assets/styles/tailwind.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 });
