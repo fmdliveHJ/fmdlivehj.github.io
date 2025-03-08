@@ -25,13 +25,25 @@ const getComponent = computed(() => {
     case '/blog/project-exp':
       return ProjectExp;
     default:
-      return null; // 기본 컴포넌트를 반환하거나 null 처리
+      return null;
   }
+});
+
+const { data: home } = await useAsyncData(() =>
+  queryCollection('content').all()
+);
+
+const filteredData = computed(() => {
+  if (!home.value) return [];
+  return home.value.filter((item) => item.path.startsWith(route.path));
+});
+onMounted(() => {
+  console.log(home.value);
 });
 </script>
 
 <template>
   <div>
-    <component :is="getComponent" />
+    <component :is="getComponent" :home="filteredData" />
   </div>
 </template>
