@@ -23,7 +23,8 @@ logs
 !.env.example
 
 # Nuxt dev/build outputs
-.output
+.output/*
+!.output/public
 .data
 .nuxt/
 .nuxt/*
