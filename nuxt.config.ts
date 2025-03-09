@@ -7,11 +7,10 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
-      link: [{ rel: 'preload', as: 'script', href: '/_nuxt/index.mjs' }],
+      link: [],
     },
   },
   ssr: true,
-  components: true,
   nitro: {
     preset: 'vercel',
     output: {
