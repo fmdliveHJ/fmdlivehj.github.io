@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     baseURL: '/',
+    head: {
+      link: [{ rel: 'preload', as: 'script', href: '/_nuxt/index.mjs' }],
+    },
   },
   ssr: true,
   components: true,
