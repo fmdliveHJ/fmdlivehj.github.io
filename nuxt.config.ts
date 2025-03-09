@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     baseURL: '/',
   },
   ssr: true,
+  components: true,
   nitro: {
     preset: 'vercel',
   },

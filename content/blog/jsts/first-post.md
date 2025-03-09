@@ -2,7 +2,8 @@
 title: '첫 번째 블로그 글'
 description: 'Nuxt Content를 사용한 블로그 구축'
 date: '2024-02-22'
-category: 'javascript'
+category: 'jsts'
+path: '/blog/jsts/first-post'
 ---
 
 ## 환영합니다!
