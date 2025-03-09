@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   components: true,
   nitro: {
     preset: 'vercel',
+    output: {
+      publicDir: '.output/public',
+    },
   },
   css: ['@/assets/styles/tailwind.css'],
   postcss: {
