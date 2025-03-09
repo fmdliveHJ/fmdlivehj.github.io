@@ -20,24 +20,17 @@ const filteredData = computed(() => {
       slug: item.path.split('/').pop() || '',
     }));
 });
-
-// ✅ 클릭 시 새로운 페이지로 이동
-const goToPost = (slug: string) => {
-  router.push(`/blog/${category.value}-${slug}`);
-};
 </script>
 
 <template>
   <div>
     <h1>{{ category }}</h1>
     <ul>
-      <li
-        v-for="item in filteredData"
-        :key="item.slug"
-        @click="goToPost(item.slug)"
-      >
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
+      <li v-for="item in filteredData" :key="item.slug">
+        <NuxtLink :to="`/blog/${category}-${item.slug}`">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </NuxtLink>
       </li>
     </ul>
   </div>
