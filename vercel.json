@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "routes": [
-    { "src": "/_nuxt/(.*)", "dest": "/.output/public/_nuxt/$1" },
-    { "src": "/(.*)", "dest": "/.output/public/$1" }
-  ]
-}
