@@ -4,12 +4,12 @@ import List from './List';
 
 const Work = () => {
   return (
-    <div css={WorkContainer}>
+    <section css={WorkContainer}>
       <h3>Work Experience</h3>
       <ul>
         <List />
       </ul>
-    </div>
+    </section>
   );
 };
 

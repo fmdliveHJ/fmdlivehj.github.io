@@ -1,18 +1,7 @@
 export const workList = [
   {
-    title: '헌법 재판소',
-    period: '2024.09 -2024.10(약 2개월)',
-    content: '실시간 음성 회의록 서비스',
-    role: '리뉴얼 페이지 구축',
-    contribution: '20%',
-    details: [
-      'JSP 환경 웹 리뉴얼 퍼블리싱: JSP 기반의 기존 시스템을 웹 표준 준수 및 리뉴얼 퍼블리싱',
-      'FullCalendar.js 활용: FullCalendar.js로 월/주/일 단위의 팝업 및 인터랙티브 UI 구현',
-    ],
-  },
-  {
     title: '웍스파이',
-    period: '2024.04 - 2025.02',
+    period: '2024.04 - 2025.02 (약11개월)',
     content: '',
     role: '화면 UI 변경 및 홈페이지 반응형 웹 퍼블리싱',
     contribution: '30%',
@@ -23,10 +12,11 @@ export const workList = [
       'BO 컴포넌트 구조 개선: Quasar를 사용해 백오피스(BO) 컴포넌트를 모듈화 및 구조적 효율성 강화',
       'JavaScript 라이브러리 활용 및 인터랙션 개발 : GSAP: 타임라인 애니메이션 및 스크롤 기반 인터랙션 구현',
     ],
+    process: '홈페이지 반응형 웹 리뉴얼 및 랜딩페이지 스크롤 모션 구현',
   },
   {
     title: '소리바로',
-    period: '2024.04 - 2025.02',
+    period: '2024.04 - 2025.02 (약11개월)',
     content: '서비스',
     role: '화면 UI 변경 및 동적화면 구성',
     contribution: '20%',
@@ -35,10 +25,23 @@ export const workList = [
       'Split 화면 구성: 퀘이사(Quasar) 프레임워크를 활용해 작업 툴의 Split 화면 기능 설계 및 구현',
       '홈페이지 인터랙션: GSAP 플러그인을 활용해 Fade-in 및 Fade-up 인터랙션 구현으로 동적 사용자 경험 제공',
     ],
+    process: '영상 음성 번역 툴 및 작업 툴 개선',
+  },
+  {
+    title: '헌법 재판소',
+    period: '2024.09 -2024.10(약 2개월)',
+    content: '실시간 음성 회의록 서비스',
+    role: '리뉴얼 페이지 구축',
+    contribution: '20%',
+    details: [
+      'JSP 환경 웹 리뉴얼 퍼블리싱: JSP 기반의 기존 시스템을 웹 표준 준수 및 리뉴얼 퍼블리싱',
+      'FullCalendar.js 활용: FullCalendar.js로 월/주/일 단위의 팝업 및 인터랙티브 UI 구현',
+    ],
+    process: 'JSP 환경 웹 리뉴얼 퍼블리싱',
   },
   {
     title: '팀블로',
-    period: '2024.08 - 2024.10',
+    period: '2024.08 - 2024.10 (약 3개월)',
     content: '팀플로 프로젝트 소개 랜딩페이지',
     role: '랜딩페이지 반응형 구현',
     contribution: '20%',
@@ -48,10 +51,11 @@ export const workList = [
       '반응형 웹 구현: 다양한 디바이스에 최적화된 인터페이스 설계 및 사용자 경험 개선',
       'SCSS 기반 모듈화된 스타일링 및 유지보수성 향상 : 변수($variables), 믹스인(@mixin), 중첩(& 연산자) 등을 활용한 효율적인 스타일 관리',
     ],
+    process: 'Nuxt 프레임워크 기반 웹페이지 구현',
   },
   {
     title: '바로노트',
-    period: '2022.11 - 2024.02',
+    period: '2022.11 - 2024.02 (약 1년4개월)',
     content: '음성 회의록 서비스',
     role: 'react 활용한 컴포넌트 퍼블리싱',
     contribution: '20%',
@@ -59,5 +63,6 @@ export const workList = [
       '화면 퍼블리싱 및 모바일 UI 구현: MSA 구조 내 다른 서비스와 연동하여 모바일 화면 퍼블리싱',
       'style 관리: styled-components를 활용하여 컴포넌트 단위로 스타일을 관리하고, CSS 전역 충돌을 방지하여 유지보수성을 향상',
     ],
+    process: '화면 퍼블리싱 및 모바일 UI 구현',
   },
 ];

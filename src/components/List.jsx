@@ -29,6 +29,14 @@ const List = () => {
                 </ul>
               </dd>
             </dl>
+            <dl className='process'>
+              <dt>기여 및 성과</dt>
+              <dd>
+                <ul>
+                  <li>{work.process}</li>
+                </ul>
+              </dd>
+            </dl>
           </div>
         </li>
       ))}
@@ -44,7 +52,12 @@ const list = css`
   gap: 5px;
   margin-bottom: 50px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #e1e0e0;
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
   h4 {
     font-size: 18px;
     font-weight: 600;
@@ -72,7 +85,7 @@ const desc = css`
     gap: 10px;
   }
   dt {
-    min-width: 70px;
+    min-width: 80px;
   }
   dd {
     ul {
@@ -85,6 +98,12 @@ const desc = css`
     }
   }
   .details {
+    dd {
+      margin-left: 20px;
+    }
+  }
+  .process {
+    margin-top: 10px;
     dd {
       margin-left: 20px;
     }

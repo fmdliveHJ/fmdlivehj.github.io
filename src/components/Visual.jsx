@@ -1,15 +1,15 @@
 import React from 'react';
-import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 import Profile from '../assets/images/profile.jpg';
 const Visual = () => {
   return (
-    <VisualContainer>
+    <section css={VisualContainer}>
       <h2>사용자 경험에 강한 개발자 정현진</h2>
-      <VisualBox>
-        <VisualPic>
+      <div css={VisualBox}>
+        <div css={VisualPic}>
           <img src={Profile} alt='profile' />
-        </VisualPic>
-        <VisualDesc>
+        </div>
+        <div css={VisualDesc}>
           <h2>Contact</h2>
           <dl>
             <dt>Phone</dt>
@@ -35,15 +35,15 @@ const Visual = () => {
               </a>
             </dd>
           </dl>
-        </VisualDesc>
-      </VisualBox>
-    </VisualContainer>
+        </div>
+      </div>
+    </section>
   );
 };
 
 export default Visual;
 
-const VisualContainer = styled.div`
+const VisualContainer = css`
   margin-top: 100px;
   & > h2 {
     font-size: 40px;
@@ -52,16 +52,15 @@ const VisualContainer = styled.div`
   }
 `;
 
-const VisualBox = styled.div`
+const VisualBox = css`
   display: flex;
   gap: 50px;
   align-items: center;
 `;
 
-const VisualPic = styled.div`
-  min-width: 200px;
-  height: 200px;
-  border-radius: 50%;
+const VisualPic = css`
+  min-width: 250px;
+  height: 250px;
   overflow: hidden;
   img {
     width: 100%;
@@ -71,7 +70,7 @@ const VisualPic = styled.div`
   }
 `;
 
-const VisualDesc = styled.div`
+const VisualDesc = css`
   display: flex;
   flex-direction: column;
   gap: 10px;

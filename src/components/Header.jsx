@@ -16,12 +16,13 @@ const HeaderContainer = styled.div`
   z-index: 100;
   padding: 10px;
   width: 100%;
-  height: 40px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  box-sizing: border-box;
   h1 {
     font-size: 16px;
     font-weight: 500;

@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 
 const Intro = () => {
   return (
-    <div css={IntroContainer}>
+    <section css={IntroContainer}>
       <h3>Intro</h3>
       <p>
         공공기관 리뉴얼 퍼블리싱을 담당하며 HTML5, JavaScript, 크로스브라우징,
@@ -38,7 +38,7 @@ const Intro = () => {
         프레임워크의 장점을 적극 활용하고, 비즈니스 목표와 사용자 만족을 동시에
         충족하는 결과를 만들어가고 싶습니다.
       </p>
-    </div>
+    </section>
   );
 };
 
@@ -49,5 +49,10 @@ const IntroContainer = css`
   h3 {
     font-size: 30px;
     margin-bottom: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
   }
 `;
