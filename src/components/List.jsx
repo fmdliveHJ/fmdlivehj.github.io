@@ -29,14 +29,14 @@ const List = () => {
                 </ul>
               </dd>
             </dl>
-            <dl className='process'>
+            {/* <dl className='process'>
               <dt>기여 및 성과</dt>
               <dd>
                 <ul>
                   <li>{work.process}</li>
                 </ul>
               </dd>
-            </dl>
+            </dl> */}
           </div>
         </li>
       ))}

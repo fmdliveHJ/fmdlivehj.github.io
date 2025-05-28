@@ -13,11 +13,15 @@ const Visual = () => {
           <h2>Contact</h2>
           <dl>
             <dt>Phone</dt>
-            <dd>010-4725-0335</dd>
+            <dd>
+              <a href='tel:01047250335'>010-4725-0335</a>
+            </dd>
           </dl>
           <dl>
             <dt>Email</dt>
-            <dd>gdalove@naver.com</dd>
+            <dd>
+              <a href='mailto:gdalove@naver.com'>gdalove@naver.com</a>
+            </dd>
           </dl>
           <dl>
             <dt>Github</dt>
@@ -27,14 +31,14 @@ const Visual = () => {
               </a>
             </dd>
           </dl>
-          <dl>
+          {/* <dl>
             <dt>Blog</dt>
             <dd>
               <a target='_blank' href='http://blog-omega-three-92.vercel.app/'>
                 https://blog-omega-three-92.vercel.app/
               </a>
             </dd>
-          </dl>
+          </dl> */}
         </div>
       </div>
     </section>
